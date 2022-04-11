@@ -1,0 +1,28 @@
+.navbar{
+    box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222,2px 2px 8px 4px #222,2px 2px 8px 4px #222;
+    width: 100vw; 
+    height: 60px;
+    color:white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #222;
+    position: fixed;
+    top:5px;
+    left:0;
+    z-index: 10000000;
+}
+.navbar h3{
+    padding: 8px;
+    font-weight: 1000;
+    font-size: 15px;
+    background-color: #222;
+    color: aliceblue;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222,2px 2px 8px 4px #222,2px 2px 8px 4px #222;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}

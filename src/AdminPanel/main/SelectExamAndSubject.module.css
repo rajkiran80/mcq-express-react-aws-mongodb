@@ -1,0 +1,58 @@
+.addMcqTestContainer{
+    width:90vw;
+    min-height: 80vh;
+    background-color:#222;
+    flex-wrap: wrap;
+    position: absolute;
+    border-radius: 10px;
+    flex-direction: column;
+    top:100px;
+    left:50%;
+    transform: translateX(-50%);
+    box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selectExamSubject{
+    border-radius: 10px;
+    width:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    background-color:#222;
+    box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222;
+}
+.selectExamSubject h4{
+    color:white;
+    margin: 8px;
+}
+.selectExamSubject div{
+    margin: 6px;
+}
+.selectExamSubject select{
+    width:200px;
+    padding: 8px;
+    border: none;
+    background-color:#222;
+    color: aliceblue;
+    outline: none;
+    border-radius: 5px;
+    box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222;
+}
+.selectExamSubject option{
+    margin: 5px;
+}
+.selectExamSubject button{
+    padding: 8px;
+    background-color:#222;
+    color:white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222;
+    margin-top: 20px;
+}

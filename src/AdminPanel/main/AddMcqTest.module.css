@@ -1,0 +1,57 @@
+.addMcqTest{
+    background-color:#222;
+    position: absolute;
+    border-radius: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    top:100px;
+    left:50%;
+    width: 80%;
+    transform: translateX(-50%);
+    box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222;
+}
+.addMcqTest input[type="text"]{
+    padding: 10px;
+    display: inline-block;
+    color:white;
+    outline: none;
+    border-radius: 10px;
+    background-color:#222;
+    margin-right: 15px;
+    box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222;
+}
+.options li{
+    margin-top: 20px;
+}
+.addMcqTest input[type="radio"]{
+    width:50px;
+    display: inline-block;
+    height: 20px;
+}
+.question{
+    margin-top: 30px;
+    width:300px;
+}
+.btnWrapper button{
+    padding: 15px;
+    font-size: 12px;
+    border-radius: 10px;
+    box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222;
+    background-color: #222;
+    color:white;
+    cursor: pointer;
+    border: none;
+    margin: 20px 10px;
+}
+@media only screen and (max-width:500px){
+    .addMcqTest{
+        width:85%;
+    }
+}
+@media only screen and (max-width:400px){
+    .question{
+       width:270px;
+       margin-left: 20px;
+    }
+}

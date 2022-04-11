@@ -1,0 +1,81 @@
+.addExamNameContainer{
+    width:90vw;
+    min-height: 80vh;
+    background-color:#222;
+    flex-wrap: wrap;
+    position: absolute;
+    border-radius: 10px;
+    flex-direction: column;
+    top:100px;
+    left:50%;
+    transform: translateX(-50%);
+    box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addExamNameContainer input{
+     padding: 10px;
+     color: white;
+     width:300px;
+     border: none;
+     display: inline-block;
+     outline: none;
+     border-radius: 10px;
+     background-color:#222;
+     margin-right: 15px;
+     box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222;
+}
+.inputFileWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.customFileUpload{
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    top:1px;
+    cursor: pointer;
+    background-color:#222;
+    color: white;
+    box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222;
+}
+.addExamNameContainer input[type="file"]{
+     display: none;
+     opacity: 0;
+}
+.btnWrapper{
+    margin-top: 15px;
+    margin-left: 8px;
+}
+.btnWrapper button{
+    padding: 15px;
+    font-size: 12px;
+    border-radius: 10px;
+    box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222;
+    background-color: #222;
+    color:white;
+    cursor: pointer;
+    border: none;
+    margin: 20px 10px;
+}
+.error{
+    color: red;
+    margin-top: 15px;
+    padding: 8px 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222;
+    position: relative;
+    top:10px;
+}
+@media only screen and (max-width:500px){
+    .addExamNameContainer input{
+        width:200px;
+    }
+}

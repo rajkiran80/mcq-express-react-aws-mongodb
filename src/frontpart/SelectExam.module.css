@@ -1,0 +1,58 @@
+.listWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.listWrapper li{
+    width:60px;
+    height: 60px;
+    padding: 5px;
+    list-style: none;
+    margin: 10px 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222,2px 2px 8px 4px #222,2px 2px 8px 4px #222;
+}
+.listWrapper img{
+    width:80%;
+    height: 80%;
+    object-fit: contain;
+    padding: 4px;
+    border-radius: 10px;
+}
+.listWrapper li h5{
+    font-size: 8px;
+    text-align: center;
+    padding: 2px;
+    color: white;
+}
+li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+@media only screen and (max-width:903px){
+    .listWrapper{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    }
+}
+@media only screen and (max-width:682px){
+    .listWrapper{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    }
+}
+@media only screen and (max-width:483px){
+    .listWrapper{
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+    }
+}
+@media only screen and (max-width:385px){
+    .listWrapper{
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}

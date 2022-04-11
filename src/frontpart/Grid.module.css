@@ -1,0 +1,17 @@
+.gridWrapper{
+    width:80%;
+    min-height: 500px;
+    position: absolute;
+    top:55%;
+    left:50%;
+    border-radius: 10px 15px 40px;
+    transform: translate(-50%,-50%);
+    background-color: #222;
+    padding: 5px;
+    box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222,2px 2px 8px 4px #222,2px 2px 8px 4px #222;
+}
+@media only screen and (max-width:600px){
+    .gridWrapper{
+       width:90%;
+    }
+}

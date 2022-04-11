@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+html, body {
+    background-color: #222;
+    width:100vw;
+    height: 100vh;
+    font-family: 'Nanum Gothic', sans-serif;
+    box-shadow:  -2px -2px 8px 4px white, 2px 2px 8px 4px #222,2px 2px 8px 4px #222,2px 2px 8px 4px #222;
+}
